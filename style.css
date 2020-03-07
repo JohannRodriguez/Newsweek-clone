@@ -17,8 +17,23 @@
   padding: 0 20px;
 }
 
+h1 {
+  font-size: 70px;
+  font-weight: 900;
+}
+
+nav a {
+  color: black;
+  transition: 0.2s;
+}
+
 .header-top a {
   color: white;
+}
+
+.location-date a {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .header-top a:hover {
@@ -30,13 +45,8 @@
   margin-top: 10px;
 }
 
-.location-date a {
-  font-size: 15px;
-  font-weight: bold;
-}
-
 .location-date img {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .location-date a span {
@@ -46,11 +56,6 @@
 .location-date p {
   font-size: 15px;
   margin-top: 10px;
-}
-
-h1 {
-  font-size: 70px;
-  font-weight: 900;
 }
 
 h1 a {
@@ -68,6 +73,7 @@ h1 a {
   margin-left: 10px;
   width: 130px;
 }
+
 nav {
   clip-path: polygon(0 0, 96% 0, 100% 99%, 0% 100%);
   background-color: white;
@@ -87,11 +93,6 @@ nav ul {
 
 nav li {
   border-right: solid 1px lightgrey;
-}
-
-nav a {
-  color: black;
-  transition: 0.2s;
 }
 
 nav li :hover {
