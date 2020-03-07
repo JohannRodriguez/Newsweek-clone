@@ -22,6 +22,10 @@ h1 {
   font-weight: 900;
 }
 
+a {
+  color: black;
+}
+
 nav a {
   color: black;
   transition: 0.2s;
@@ -119,3 +123,76 @@ nav ul :nth-child(11) {
   border: none;
 }
 
+main {
+  padding: 20px 15px;
+}
+
+main section {
+  padding: 0 15px;
+}
+
+main a {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+main a:hover {
+  text-decoration: none;
+  color: rgb(151, 151, 151);;
+}
+
+main h4 a {
+  color: rgb(151, 151, 151);
+  font-size: 14px;
+}
+
+.main-section-article-img {
+  position: relative;
+}
+
+.main-section-article-img-topic {
+  bottom: 0;
+  background-color: rgb(250, 250, 250, 0.8);
+  color: #f72210;
+  left: 0;
+  padding: 5px 15px;
+  position: absolute;
+}
+
+.main-section-article-img-topic:hover {
+  color: #f72210;
+}
+
+main article h2 {
+  font-size: 1.5em;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+main article h2 a:hover {
+  color: black;
+  text-decoration: underline #f72210;
+}
+
+main article p {
+  color: rgb(68, 68, 68);
+  font-size: 0.85em;
+  margin: 0;
+}
+
+main article h3 {
+  font-size: 1.1em;
+  border-top: solid 1px lightgrey;
+  border-bottom: solid 1px lightgrey;
+  padding: 15px 0;
+  margin: 0;
+  margin-top: -1px;
+}
+
+main article h3 a:hover {
+  color: #f72210;
+}
+
+main section article > :last-child {
+  margin-bottom: 20px;
+}
