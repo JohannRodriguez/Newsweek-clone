@@ -35,6 +35,16 @@ h1 a {
   font-family: 'Playfair Display', serif;
 }
 
+main a {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+main h4 a {
+  color: rgb(151, 151, 151);
+  font-size: 14px;
+}
+
 .header-top a {
   color: white;
 }
@@ -42,6 +52,11 @@ h1 a {
 .location-date a {
   font-size: 15px;
   font-weight: bold;
+}
+
+main a:hover {
+  text-decoration: none;
+  color: rgb(151, 151, 151);;
 }
 
 .header-top a:hover {
@@ -129,21 +144,6 @@ main {
 
 main section {
   padding: 0 15px;
-}
-
-main a {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-weight: 700;
-}
-
-main a:hover {
-  text-decoration: none;
-  color: rgb(151, 151, 151);;
-}
-
-main h4 a {
-  color: rgb(151, 151, 151);
-  font-size: 14px;
 }
 
 .main-section-article-img {
