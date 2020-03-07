@@ -1,8 +1,10 @@
 * {
- box-sizing: border-box;
- -moz-box-sizing: border-box;
- -webkit-box-sizing: border-box;
- font-family: 'Noto Sans TC', sans-serif;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .header-top {
@@ -47,9 +49,12 @@
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
   font-size: 70px;
   font-weight: 900;
+}
+
+h1 a {
+  font-family: 'Playfair Display', serif;
 }
 
 .user-account {
@@ -63,3 +68,53 @@ h1 {
   margin-left: 10px;
   width: 130px;
 }
+nav {
+  clip-path: polygon(0 0, 96% 0, 100% 99%, 0% 100%);
+  background-color: white;
+  height: 60px;
+  margin-top: -15px;
+  width: calc(100% - 45px);
+}
+
+nav ul {
+  font-size: 17px;
+  font-weight: bold;
+  list-style: none;
+  padding-top: 15px;
+  padding-right: 55px;
+  text-align: center;
+}
+
+nav li {
+  border-right: solid 1px lightgrey;
+}
+
+nav a {
+  color: black;
+  transition: 0.2s;
+}
+
+nav li :hover {
+  color: #f72210;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.nav-search {
+  border: none;
+}
+
+.nav-search input {
+  border: none;
+  width: 60px;
+}
+
+.nav-search i {
+  color: rgb(39, 39, 39);
+  padding-left: 5px;
+}
+
+nav ul :nth-child(11) {
+  border: none;
+}
+
