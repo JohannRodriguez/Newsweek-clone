@@ -270,5 +270,47 @@ main section article > :last-child {
 
 .more-stories article {
   border-top: 1px solid lightgrey;
-  padding-top: 20px;
+  padding-top: 15px;
+}
+
+.more-stories p {
+  margin-bottom: 15px !important;
+}
+
+.aside-opinion h3 {
+  border-top: none;
+  border-bottom: none;
+}
+
+.aside-opinion article {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  height: 85px;
+  margin-top: 10px;
+}
+
+.aside-opinion article:last-child {
+  border: none;
+}
+
+.aside-opinion img {
+  width: 63;
+  height: 63;
+  margin-right: 15px;
+}
+
+.aside-opinion h3 {
+  font-size: 1em;
+  padding: 0;
+}
+
+.aside-opinion p {
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.main-left-side{
+ width: 100px;
+  background-color: red;
 }
