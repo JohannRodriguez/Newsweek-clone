@@ -70,10 +70,6 @@ h4 {
   font-weight: bold;
 }
 
-.culture-and-travel h6 a {
-  font-family: 'Playfair Display', serif;
-}
-
 main a:hover {
   text-decoration: none;
   color: rgb(151, 151, 151);
@@ -81,6 +77,7 @@ main a:hover {
 
 .culture-and-travel h6 a {
   color: #2b2b2b;
+  font-family: 'Playfair Display', serif;
   font-size: 1.3em;
   font-weight: normal;
 }
