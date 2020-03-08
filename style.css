@@ -50,11 +50,6 @@ main a {
   font-weight: 700;
 }
 
-h1 a,
-.culture-and-travel h6 a {
-  font-family: 'Playfair Display', serif;
-}
-
 main h4 a,
 h4 {
   color: rgb(151, 151, 151);
@@ -69,6 +64,11 @@ h4 {
 .location-date a {
   font-size: 15px;
   font-weight: bold;
+}
+
+h1 a,
+.culture-and-travel h6 a {
+  font-family: 'Playfair Display', serif;
 }
 
 main a:hover {
