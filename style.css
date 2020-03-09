@@ -450,7 +450,7 @@ main section article > :last-child {
 
 .logo-and-title-border {
   border-bottom: solid 1px lightgrey;
-  margin: 0 30px 15px 30px;
+  margin: 0 30px 15px 30px !important;
 }
 
 .in-the-magazine img {
@@ -461,6 +461,22 @@ main section article > :last-child {
   display: block;
   color: rgb(65, 65, 65);
   margin-top: 15px;
+}
+
+.in-the-magazine-highlight > :last-child {
+  background-color: #f4f5f6;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.in-the-magazine-highlight > :last-child:hover {
+  background-color: #d4d4d4;
+}
+
+.in-the-magazine-highlight > :last-child a:hover {
+  text-decoration: none;
 }
 
 .in-the-magazine-container {
@@ -522,4 +538,86 @@ main section article > :last-child {
   background-color: rgb(255, 250, 250, 0);
   padding: 0;
   font-size: 1.3em;
+}
+
+.img-with-label {
+  font-weight: bold;
+  position: relative;
+}
+
+.img-with-label > :last-child {
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  color: #f72210;
+  font-size: 0.9em;
+  left: 0;
+  padding: 5px 10px;
+  position: absolute;
+}
+
+.img-with-label a:hover {
+  text-decoration: none;
+}
+
+.editors-pick {
+  padding: 0;
+  padding-top: 15px;
+}
+
+.editors-pick > div {
+  margin: 0 10px;
+}
+
+.editors-pick img,
+.feautured-slideshows img,
+.various-notes img {
+  width: 100%;
+}
+
+.editors-pick h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.feautured-slideshows h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.various-notes aside img {
+  float: left;
+  max-width: 95px;
+  margin-right: 15px;
+}
+
+.various-notes aside article {
+  border-bottom: solid 1px lightgray;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.various-notes h3 {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.various-notes h3::after {
+  content: "";
+  clear: both;
+  display: block;
+  width: 10px;
+}
+
+.more-stories p::after {
+  content: "";
+  clear: both;
+  display: block;
+  width: 10px;
+}
+
+.various-notes {
+  background-color: white;
 }
