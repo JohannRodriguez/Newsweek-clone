@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <div class="header-top">
+        <div class="header-top d-flex justify-content-between align-items-baseline">
             <div class="location-date">
                 <a href="#"><img src="https://g.newsweek.com/img/weather/27.png" alt="cloudy sun" width="25">22° <span>Mazatlán, MX ></span></a>
                 <p>Fri, Mar 06, 2020</p>
@@ -39,9 +39,9 @@
             </ul>
         </nav>
     </header>
-    <main class="container-fluid-md">
+    <main class="container-fluid">
         <div class="row">
-            <section class="main-left-side col-md">
+            <section class="main-left-side col-lg col-md">
                 <h4><a href="#">FEAUTURED STORIES</a></h4>
                 <article>
                     <div class="main-section-article-img">
@@ -88,7 +88,7 @@
                     <h3><a href="#">Trump Says Sanders Would Be a 'Tougher' Opponent Than Front-Runner Joe Biden</a></h3>
                 </article>
             </section>
-            <section class="main-middle col-5">
+            <section class="main-middle col-lg-5 col-md-7">
                 <h4>TOP STORY</h4>
                 <article class="top-story">
                     <div class="main-section-article-img">
@@ -102,31 +102,33 @@
                 </article>
                 <section class="culture-and-travel">
                     <h4><a href="#">CULTURE & TRAVEL</a></h4>
-                    <div class="d-flex justify-content-between">
-                        <article>
-                            <div class="culture-and-travel-img">
-                                <a href="#"><img src="https://d.newsweek.com/en/full/1571081/cul-uncharted-stargazing-banner.jpg?w=397&h=397&f=5debbb1743b026c67fa7c79736721c31" alt="night sky"></a>
-                                <a href="#" class="culture-and-travel-img-topic">Travel</a>
-                            </div>
-                            <h6><a href="#">Best Stargazing Spots Around the Globe</a></h6>
-                            <p>Astrotourism is taking off, and these are the best places—on our planet, at least—to witness the dazzling display of luminous balls of gas that we call stars.</p>
-                        </article>
-                        <article>
-                            <div class="culture-and-travel-img">
-                                <a href="#"><img src="https://d.newsweek.com/en/full/1559766/cul-map-1097506118-banner.jpg?w=397&h=397&l=52&t=43&f=b6a065dbcf99906c89d4d8ca453a0e3d" alt="women draw"></a>
-                                <a href="#" class="culture-and-travel-img-topic">Women</a>
-                            </div>
-                            <h6><a href="#">Women Changemakers of the Last Century</a></h6>
-                            <p>In honor of Women's History Month, here are impressive female advancements over the past 100 years. From the first woman to rocket into space to the Women's March activists, these women have forged paths forward against all odds.</p>
-                        </article>
-                        <article>
-                            <div class="culture-and-travel-img">
-                                <a href="#"><img src="https://d.newsweek.com/en/full/1570724/tourists-hanoi-during-coronavirus-outbreak.jpg?w=397&h=397&f=2f071854b67d40bfb67263d33a85c09b" alt="asian taxi"></a>
-                                <a href="#" class="culture-and-travel-img-topic">Travel</a>
-                            </div>
-                            <h6><a href="#">What It's Like to Travel in Southeast Asia During Coronavirus</a></h6>
-                            <p>Have plans to travel to Southeast Asia soon? Here's what our correspondent experienced during his monthlong stint in the region in February.</p>
-                        </article>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <article class="col-lg col-md">
+                                <div class="culture-and-travel-img">
+                                    <a href="#"><img src="https://d.newsweek.com/en/full/1571081/cul-uncharted-stargazing-banner.jpg?w=397&h=397&f=5debbb1743b026c67fa7c79736721c31" alt="night sky"></a>
+                                    <a href="#" class="culture-and-travel-img-topic">Travel</a>
+                                </div>
+                                <h6><a href="#">Best Stargazing Spots Around the Globe</a></h6>
+                                <p>Astrotourism is taking off, and these are the best places—on our planet, at least—to witness the dazzling display of luminous balls of gas that we call stars.</p>
+                            </article>
+                            <article class="col-lg col-md">
+                                <div class="culture-and-travel-img">
+                                    <a href="#"><img src="https://d.newsweek.com/en/full/1559766/cul-map-1097506118-banner.jpg?w=397&h=397&l=52&t=43&f=b6a065dbcf99906c89d4d8ca453a0e3d" alt="women draw"></a>
+                                    <a href="#" class="culture-and-travel-img-topic">Women</a>
+                                </div>
+                                <h6><a href="#">Women Changemakers of the Last Century</a></h6>
+                                <p>In honor of Women's History Month, here are impressive female advancements over the past 100 years. From the first woman to rocket into space to the Women's March activists, these women have forged paths forward against all odds.</p>
+                            </article>
+                            <article class="col-lg col-md">
+                                <div class="culture-and-travel-img">
+                                    <a href="#"><img src="https://d.newsweek.com/en/full/1570724/tourists-hanoi-during-coronavirus-outbreak.jpg?w=397&h=397&f=2f071854b67d40bfb67263d33a85c09b" alt="asian taxi"></a>
+                                    <a href="#" class="culture-and-travel-img-topic">Travel</a>
+                                </div>
+                                <h6><a href="#">What It's Like to Travel in Southeast Asia During Coronavirus</a></h6>
+                                <p>Have plans to travel to Southeast Asia soon? Here's what our correspondent experienced during his monthlong stint in the region in February.</p>
+                            </article>
+                        </div>
                     </div>
                 </section>
                 <section class="more-stories">
@@ -166,11 +168,6 @@
                         <h2><a href="#">Warren Urged by National Organization for Women Not to Endorse Sanders</a></h2>
                         <p>"We do trust her to make the right decisions on how to proceed," said National Organization for Women President Toni Van Pelt.</p>
                     </article>
-                    <article>
-                        <a href="#"><img src="https://d.newsweek.com/en/full/1571846/subway-new-york-city-getty.jpg?w=95&h=95&f=a048fe206b8451146bbd8afa95e8c503" alt=""></a>
-                        <h2><a href="#">Asian Man Sprayed with Air Freshener in Suspected NYC COVID-19 Hate Crime</a></h2>
-                        <p>The incident come after the World Health Organization said "harmful stereotypes" around COVID-19 could make it harder to contain the virus which has killed over 3,000 people across the globe.</p>
-                    </article>
                 </section>
             </section>
             <aside class="main-aside col-lg">
@@ -178,42 +175,42 @@
                     <h4><a href="#">OPINION</a></h4>
                     <article>
                         <a href="#"><img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77" alt=""></a>
-                        <div class="opinion-author-info">
+                        <div id="opinion-author-info">
                             <h3><a href="#">Neither Sanders Nor Biden Can Defeat Each Other Without Hamstringing Party</a></h3>
                             <p>BY NEWT GINGRICH</p>
                         </div>
                     </article>
                     <article>
                         <a href="#"><img src="https://d.newsweek.com/en/full/1572047/leo-hindery-jr.png?w=63&h=63&f=2a6feea62c65a6b23b011fa52d0b2f7e" alt=""></a>
-                        <div class="opinion-author-info">
+                        <div id="opinion-author-info">
                             <h3><a href="#">Trump's Economy Is A House of Cards. How Will Democrats Prevent Collapse?</a></h3>
                             <p>BY LEO HINDERY JR.</p>
                         </div>
                     </article>
                     <article>
                         <a href="#"><img src="https://d.newsweek.com/en/full/1528785/roff-new.png?w=63&h=63&f=4dc2ef8dad149bbca161552d8b875591" alt=""></a>
-                        <div class="opinion-author-info">
+                        <div id="opinion-author-info">
                             <h3><a href="#">The Democrat Field Narrows. Should the GOP Worry?</a></h3>
                             <p>BY PETER ROFF</p>
                         </div>
                     </article>
                     <article>
                         <a href="#"><img src="https://d.newsweek.com/en/full/89510/marc-schulman.png?w=63&h=63&f=0544ec46ee21c238aad07cc8eaa35569" alt=""></a>
-                        <div class="opinion-author-info">
+                        <div id="opinion-author-info">
                             <h3><a href="#">Netanyahu: So Tantalizingly Close, But No Cigar</a></h3>
                             <p>BY MARC SCHULMAN</p>
                         </div>
                     </article>
                     <article>
                         <a href="#"><img src="https://d.newsweek.com/en/full/1555939/mark-joseph.png?w=63&h=63&f=33ea309c94ea8adc6d59a915e8f1e60e" alt=""></a>
-                        <div class="opinion-author-info">
+                        <div id="opinion-author-info">
                             <h3><a href="#">Kyu Sakamoto Reminds Japan of The Importance of Bold Leadership</a></h3>
                             <p>BY MARK JOSEPH</p>
                         </div>
                     </article>
                     <article>
                         <a href="#"><img src="https://d.newsweek.com/en/full/1571708/amandauhle.png?w=63&h=63&f=d6ebe9a32333f106e3aebbb5c7d14e83" alt=""></a>
-                        <div class="opinion-author-info">
+                        <div id="opinion-author-info">
                             <h3><a href="#">Kids Are Wonderfully Weird. They Need Spaces That Encourage That</a></h3>
                             <p>BY AMANDA UHLE</p>
                         </div>
@@ -279,7 +276,7 @@
                     </article>
                 </section>
                 <div class="subscribe-aside">
-                    <div class="d-flex align-items-center subscribe-message">
+                    <div class="logo-and-title d-flex align-items-center">
                         <p class="d-flex align-items-center justify-content-center">N</p>
                         <p>SIGN UP FOR OUR NEWSLETTER</p>
                     </div>
@@ -291,5 +288,65 @@
             </aside>
         </div>
     </main>
+    <section>
+        <div class="logo-and-title d-flex align-items-center">
+            <p class="d-flex align-items-center justify-content-center">N</p>
+            <p>IN THE MAGAZINE</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <article class="col-sm">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1569344/march-06-2020-cover.jpg?w=360&h=480&q=90&f=4af562c8ca065448c791b96a49a741b0" alt=""></a>
+                    <p>a</p>
+                    <a href="#">a</a>
+                    <h2><a href="#">a</a></h2>
+                </article>
+                <article class="col-sm">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1569626/fea-toxicstress-banner.jpg?w=466&h=311&q=90&f=5e21c107c0aa1ef598a0275a784b6fd7" alt=""></a>
+                    <p>COVER</p>
+                    <a href="#">HEALTH</a>
+                    <h2><a href="#">Yes, Stress Really Is Making You Sick</a></h2>
+                </article>
+                <article class="col-sm">
+                    <img src="https://d.newsweek.com/en/full/1567182/per-financial-infidelity.jpg?w=466&h=311&q=90&f=edbc787878fe03feb32384369bdd5e0c" alt="">
+                    <p>PERISCOPE</p>
+                    <a href="#">BUSINESS</a>
+                    <h2><a href="#">Keeping Money Secrets From Your Partner May Not Be Such a Bad Thing</a></h2>
+                </article>
+                <article class="col-sm">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1567501/william-barr.jpg?w=466&h=311&q=90&f=79a6ae949d478519e18422f7c178b88d" alt=""></a>
+                    <p>PERISCOPE</p>
+                    <a href="#">POLITICS</a>
+                    <h2><a href="#">Legal Historian: AG Barr's Actions Are 'Remarkably Not Normal'</a></h2>
+                </article>
+            </div>
+            <div class="row">
+                <article class="col-sm">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1569617/cul-kiss-banner.jpg?w=466&h=311&l=52&t=40&q=90&f=353d0160f18e8673e297adcd45fa5d58" alt=""></a>
+                    <p>DOWNTIME</p>
+                    <a href="#">CULTURE</a>
+                    <h2><a href="#">It Costs $4,000 to go Backstage with KISS</a></h2>
+                </article>
+                <article class="col-sm">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1569644/cul-map-libraries-04.jpg?w=466&h=311&q=90&f=74f96ad016f4baa2fa4c2f8aa86fb903" alt=""></a>
+                    <p>DOWNTIME</p>
+                    <a href="#">CULTURE</a>
+                    <h2><a href="#">9 of the Most Innovative Libraries Around the World</a></h2>
+                </article>
+                <article class="col-sm">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1569623/cul-ps-janefonda-banner.jpg?w=466&h=311&l=51&t=42&q=90&f=713abe71db912392af779cecb6b26676" alt=""></a>
+                    <p>DOWNTIME</p>
+                    <a href="#"> CULTURE</a>
+                    <h2><a href="#">Jane Fonda Brings Her Climate Change Protest 'Fire Drill Fridays' to L.A.</a></h2>
+                </article>
+                <article class="col-sm">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1569623/cul-ps-janefonda-banner.jpg?w=466&h=311&l=51&t=42&q=90&f=713abe71db912392af779cecb6b26676" alt=""></a>
+                    <p>B</p>
+                    <a href="#">B</a>
+                    <h2><a href="#">B</a></h2>
+                </article>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
