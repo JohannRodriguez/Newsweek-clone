@@ -140,4 +140,13 @@
     height: 350px;
     text-align: center;
   }
+
+  main > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-middle {
+    order: -2;
+  }
 }
