@@ -12,6 +12,7 @@
     height: 50px;
     align-items: flex-start;
     position: relative;
+    justify-content: flex-start !important;
   }
 
   header {
@@ -49,9 +50,6 @@
 
   header h1 {
     height: 20px;
-  }
-
-  header h1 {
     position: relative;
     top: -35px;
   }
@@ -61,7 +59,7 @@
   }
 
   .header-top {
-    justify-content: flex-start !important;
+    
   }
 
   .user-account {
@@ -112,12 +110,12 @@
     justify-content: flex-start !important;
     text-align: start;
   }
-  
+
   .subscribe-section-content {
     flex-direction: column;
   }
-  
-  .subscribe-bottom-imgs{
+
+  .subscribe-bottom-imgs {
     width: fit-content;
     margin: 0 calc(50% - 125px);
   }
@@ -125,6 +123,10 @@
   .subscribe-section-content > :last-child {
     margin: auto;
     text-align: center;
+  }
+
+  .newsletter-section :nth-child(3) {
+    padding: 0 20px;
   }
 
   .subscribe-section-content > :last-child :first-child {
@@ -141,9 +143,5 @@
   .newsletter-section div {
     height: 350px;
     text-align: center;
-  }
-  
-  .newsletter-section :nth-child(3) {
-    padding: 0 20px;
   }
 }
