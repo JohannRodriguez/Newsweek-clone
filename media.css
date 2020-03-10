@@ -1,0 +1,152 @@
+@media (max-width: 960px) {
+  .header-top i {
+    display: inline;
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 1.5em;
+    position: relative;
+    bottom: -4px;
+    padding-left: 20px;
+  }
+
+  .header-top {
+    height: 50px;
+    align-items: flex-start;
+    position: relative;
+    justify-content: flex-start !important;
+  }
+
+  header {
+    height: 50px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  main {
+    margin-top: 0;
+  }
+
+  .location-date p {
+    display: inline;
+    font-size: 13px;
+  }
+
+  header h1 a {
+    font-size: 0.3em;
+  }
+
+  .location-date a {
+    font-size: 13px;
+  }
+
+  .location-date span {
+    display: none;
+  }
+
+  .location-date {
+    margin-left: 10px;
+  }
+
+  header h1 {
+    height: 20px;
+    position: relative;
+    top: -35px;
+  }
+
+  .header-top h1 {
+    order: -1;
+  }
+
+  .user-account {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .subscribe-aside {
+    max-width: 300px;
+    margin: 30px auto;
+  }
+
+  .regular-in-the-magazine-article {
+    margin-bottom: 15px;
+  }
+
+  .regular-in-the-magazine-article img {
+    height: auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .location-date p {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .newsletter-section img {
+    height: 188px;
+  }
+
+  .newsletter-section div {
+    height: 190px;
+  }
+}
+
+@media (max-width: 760px) {
+  .title-and-social-media p {
+    display: block;
+    margin-left: 0;
+  }
+
+  .title-and-social-media {
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    text-align: start;
+  }
+
+  .subscribe-section-content {
+    flex-direction: column;
+  }
+
+  .subscribe-bottom-imgs {
+    width: fit-content;
+    margin: 0 calc(50% - 125px);
+  }
+
+  .subscribe-section-content > :last-child {
+    margin: auto;
+    text-align: center;
+  }
+
+  .newsletter-section :nth-child(3) {
+    padding: 0 20px;
+  }
+
+  .subscribe-section-content > :last-child :first-child {
+    font-size: 0.9em;
+  }
+
+  .newsletter-section img {
+    float: none;
+    width: 100%;
+    height: 160px;
+    border: none;
+  }
+
+  main > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsletter-section div {
+    height: 350px;
+    text-align: center;
+  }
+
+  .main-middle {
+    order: -2;
+  }
+}
