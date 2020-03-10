@@ -554,15 +554,6 @@ main section article > :last-child {
   border: none;
 }
 
-body article h2 a:hover {
-  color: black;
-  text-decoration: underline #f72210;
-}
-
-.in-the-magazine-highlight > :last-child:hover {
-  background-color: #d4d4d4;
-}
-
 .culture-and-travel h6 a {
   color: #2b2b2b;
   font-family: 'Playfair Display', serif;
@@ -586,6 +577,15 @@ body article h2 a:hover {
   color: rgb(82, 82, 82);
 }
 
+body article h2 a:hover {
+  color: black;
+  text-decoration: underline #f72210;
+}
+
+.in-the-magazine-highlight > :last-child:hover {
+  background-color: #d4d4d4;
+}
+
 body article h3 a:hover {
   color: #f72210;
   text-decoration: none;
@@ -601,6 +601,11 @@ body article h3 a:hover {
 
 .title-and-social-media a:hover {
   text-decoration: none;
+}
+
+.special-image-in-the-magazine a:hover {
+  cursor: pointer;
+  color: white;
 }
 
 .debate-article h3 a:hover {
@@ -795,11 +800,6 @@ footer {
 .title-and-social-media {
   border-bottom: solid 1px lightgrey;
   margin: 0 15px 10px 15px;
-}
-
-.special-image-in-the-magazine a:hover {
-  cursor: pointer;
-  color: white;
 }
 
 footer ul {
