@@ -254,7 +254,6 @@ main section article > :last-child {
   padding: 0;
 }
 
-
 .culture-and-travel h6 {
   margin-top: 10px;
 }
@@ -498,17 +497,16 @@ main section article > :last-child {
   margin-bottom: 15px;
 }
 
-.regular-in-the-magazine-article :nth-child(2){
+.regular-in-the-magazine-article :nth-child(2) {
   background-color: #f72210;
   color: white;
   display: inline;
   font-weight: bold;
   margin: 0;
   padding: 5px 5px;
-
 }
 
-.regular-in-the-magazine-article :nth-child(3){
+.regular-in-the-magazine-article :nth-child(3) {
   color: #f72210;
   font-weight: bold;
   margin-left: 5px;
@@ -611,7 +609,7 @@ main section article > :last-child {
   margin-bottom: 15px;
 }
 
-.various-notes aside article:last-child{
+.various-notes aside article:last-child {
   border: none;
 }
 
@@ -671,7 +669,6 @@ main section article > :last-child {
 
 .subscribe-bottom > div {
   padding: 0 15px;
-
 }
 
 .subscribe-section > :first-child,
@@ -740,7 +737,7 @@ main section article > :last-child {
 }
 
 footer {
-  padding: 0px 15px;
+  padding: 0 15px;
   background-color: white;
   margin-top: 2px;
 }
