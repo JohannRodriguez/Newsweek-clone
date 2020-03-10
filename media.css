@@ -136,14 +136,14 @@
     border: none;
   }
 
-  .newsletter-section div {
-    height: 350px;
-    text-align: center;
-  }
-
   main > div {
     display: flex;
     flex-direction: column;
+  }
+
+  .newsletter-section div {
+    height: 350px;
+    text-align: center;
   }
 
   .main-middle {
