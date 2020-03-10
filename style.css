@@ -47,6 +47,10 @@ h1 {
   font-weight: 900;
 }
 
+h5 {
+  display: none;
+}
+
 a {
   color: black;
 }
@@ -328,8 +332,8 @@ main section article > :last-child {
   color: #5f5f5f;
 }
 
-#opinion-author-info {
-  margin: 0;
+.opinion-author-info {
+  margin: 0 !important;
 }
 
 .the-debate-aside h3 {
