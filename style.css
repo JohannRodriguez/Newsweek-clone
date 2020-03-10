@@ -80,60 +80,10 @@ h4 {
   font-size: 15px;
   font-weight: bold;
 }
-.title-and-social-media a
+
 main a:hover {
   text-decoration: none;
   color: rgb(151, 151, 151);
-}
-
-.culture-and-travel h6 a {
-  color: #2b2b2b;
-  font-family: 'Playfair Display', serif;
-  font-size: 1.3em;
-  font-weight: normal;
-}
-
-.various-notes > div > a {
-  color: #f72210;
-  display: block;
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-bottom: 10px;
-  margin-top: 30px;
-  padding-left: 15px;
-  width: 100%;
-}
-
-.language-and-contact li a {
-  font-weight: normal;
-  color: rgb(82, 82, 82);
-}
-
-body article h2 a:hover {
-  color: black;
-  text-decoration: underline #f72210;
-}
-
-body article h3 a:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
-.header-top a:hover {
-  text-decoration: none;
-}
-
-.special-image-in-the-magazine a:hover {
-  cursor: pointer;
-  color: white;
-}
-
-.img-with-label a:hover {
-  text-decoration: none;
-}
-
-.title-and-social-media a:hover {
-  text-decoration: none;
 }
 
 .culture-and-travel h6 a:hover {
@@ -362,16 +312,16 @@ main section article > :last-child {
   margin-top: 5px;
 }
 
-.aside-opinion article p {
-  font-weight: 800;
-  color: #5f5f5f;
-}
-
 .title-and-social-media p {
   display: inline;
   margin-left: 20px;
   font-size: 0.75em;
   color: rgb(82, 82, 82);
+}
+
+.aside-opinion article p {
+  font-weight: 800;
+  color: #5f5f5f;
 }
 
 #opinion-author-info {
@@ -434,10 +384,6 @@ main section article > :last-child {
   padding: 0;
   border: none;
   margin-top: 10px;
-}
-
-.debate-article h3 a:hover {
-  color: black;
 }
 
 .debate-article-img {
@@ -606,15 +552,6 @@ main section article > :last-child {
 
 .in-the-magazine-highlight > :last-child:hover {
   background-color: #d4d4d4;
-}
-
-.various-notes > div > a:hover {
-  text-decoration: none;
-}
-
-.language-and-contact li a:hover {
-  text-decoration: none;
-  color: rgb(26, 26, 26);
 }
 
 .in-the-magazine-highlight > :last-child a:hover {
@@ -798,11 +735,76 @@ footer {
   margin: 0 15px 10px 15px;
 }
 
+.culture-and-travel h6 a {
+  color: #2b2b2b;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+.various-notes > div > a {
+  color: #f72210;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.language-and-contact li a {
+  font-weight: normal;
+  color: rgb(82, 82, 82);
+}
+
+body article h2 a:hover {
+  color: black;
+  text-decoration: underline #f72210;
+}
+
+body article h3 a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.header-top a:hover {
+  text-decoration: none;
+}
+
+.special-image-in-the-magazine a:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.img-with-label a:hover {
+  text-decoration: none;
+}
+
+.title-and-social-media a:hover {
+  text-decoration: none;
+}
+
+.debate-article h3 a:hover {
+  color: black;
+}
+
+.various-notes > div > a:hover {
+  text-decoration: none;
+}
+
+.language-and-contact li a:hover {
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+}
+
 .title-and-social-media a {
   color: #f72210;
   font-family: 'Playfair Display', serif;
   font-size: 3.2em;
   font-weight: bold;
+  text-decoration: none;
+  color: rgb(151, 151, 151);
 }
 
 footer ul {
