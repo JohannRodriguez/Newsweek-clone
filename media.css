@@ -1,0 +1,55 @@
+@media (max-width: 960px) {
+  .header-top i {
+    display: inline;
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 1.5em;
+    position: relative;
+    bottom: -4px;
+    padding-left: 20px;
+  }
+
+  .header-top {
+    height: 50px;
+    align-items: flex-start;
+  }
+
+  header {
+    height: 50px;
+  }
+
+  nav {
+    display: none;
+  }
+  
+  main {
+    margin-top: 0;
+  }
+
+  .location-date p {
+    display: inline;
+    font-size: 13px;
+  }
+
+  .location-date a {
+    font-size: 13px;
+  }
+
+  .location-date span {
+    display: none;
+  }
+
+  header h1 a {
+    font-size: 0.3em;
+  }
+
+  header h1 {
+    height: 20px;
+  }
+
+  .user-account,
+  header h1 {
+    position: relative;
+    top: -35px;
+  }
+
+}
