@@ -11,6 +11,7 @@
   .header-top {
     height: 50px;
     align-items: flex-start;
+    position: relative;
   }
 
   header {
@@ -42,14 +43,44 @@
     display: none;
   }
 
+  .location-date {
+    margin-left: 10px;
+  }
+
   header h1 {
     height: 20px;
   }
 
-  .user-account,
   header h1 {
     position: relative;
     top: -35px;
+  }
+
+  .header-top h1 {
+    order: -1;
+  }
+
+  .header-top {
+    justify-content: flex-start !important;
+  }
+
+  .user-account {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .subscribe-aside {
+    max-width: 300px;
+    margin: 30px auto;
+  }
+
+  .regular-in-the-magazine-article {
+    margin-bottom: 15px;
+  }
+
+  .regular-in-the-magazine-article img {
+    height: auto;
   }
 }
 
@@ -80,5 +111,38 @@
     align-items: flex-start !important;
     justify-content: flex-start !important;
     text-align: start;
+  }
+  
+  .subscribe-section-content {
+    flex-direction: column;
+  }
+  
+  .subscribe-bottom-imgs{
+    width: fit-content;
+    margin: 0 calc(50% - 125px);
+  }
+
+  .subscribe-section-content > :last-child {
+    margin: auto;
+    text-align: center;
+  }
+
+  .subscribe-section-content > :last-child :first-child {
+    font-size: 0.9em;
+  }
+
+  .newsletter-section img {
+    float: none;
+    width: 100%;
+    height: 160px;
+    border: none;
+  }
+
+  .newsletter-section div {
+    height: 350px;
+    text-align: center;
+  }
+  .newsletter-section :nth-child(3) {
+    padding: 0 20px;
   }
 }
